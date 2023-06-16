@@ -22,6 +22,8 @@ The fraud detection project aims to build a robust machine learning model that c
 
 Describe the dataset used for the fraud detection project. Provide details about the source of the data, its format, and the features present. If the dataset cannot be shared due to privacy or confidentiality reasons, mention the general characteristics of the data without disclosing sensitive information.
 
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
 ## Dependencies
 
 List the dependencies required to run the fraud detection project. Include the programming languages, libraries, and frameworks used. For example:
