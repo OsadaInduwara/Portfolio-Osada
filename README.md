@@ -1,6 +1,4 @@
-# Portfolio-Osada
-
-# Your Name's Portfolio
+# Osada's Portfolio
 
 Welcome to my portfolio! This README.md file provides an overview of the projects I have worked on and highlights my skills as a Data Scientist and Machine Learning Engineer. Each project showcases my expertise in various areas. Please feel free to explore the individual project folders for more detailed information.
 
