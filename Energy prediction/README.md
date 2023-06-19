@@ -50,4 +50,34 @@ The project relies on the following libraries and frameworks:
 - `pandas`: Data analysis and manipulation library.
 - `python`: Programming language used for development.
 - `keras`: Deep learning framework for building and training neural networks.
-- `scikit-learn`: Machine
+- `scikit-learn`: Machine learning library for data preprocessing and model evaluation.
+- `lightgbm`: Gradient boosting framework for training and predicting using decision trees.
+- `matplotlib`: Visualization library for creating plots and charts.
+- `seaborn`: Data visualization library built on top of matplotlib.
+
+Make sure to install these dependencies using the appropriate package manager or by running `pip install <library>` for each library listed above.
+
+## Usage
+
+To run this project locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/your-username/signal-tower-energy-prediction.git`
+2. Install the required dependencies: `pip install -r requirements.txt`
+3. Prepare the dataset with the necessary features and target variable.
+4. Run the preprocessing scripts to clean and transform the data if needed.
+5. Train the autoML models using the prepared dataset.
+6. Evaluate the performance of the trained models using appropriate metrics.
+7. Use the trained models to predict the energy consumption for new data points.
+
+## Model Evaluation
+
+To assess the performance of the prediction models, several evaluation metrics can be utilized, such as mean squared error (MSE), root mean squared error (RMSE), mean absolute error (MAE), or coefficient of determination (R-squared). These metrics provide insights into the accuracy and robustness of the models.
+
+Additionally, feature importance analysis can be conducted to identify the most influential features in predicting the energy consumption of signal towers. This analysis helps understand the relative impact of each feature and can guide feature selection or engineering efforts.
+
+## Conclusion
+
+The signal tower energy prediction project leverages autoML techniques, deep learning methods, and advanced feature analysis to accurately forecast the energy consumption of signal towers. By using a combination of call data, internet usage, unique options, specific equipment's data, and other features, the models provide valuable insights for optimizing energy usage and planning resource allocation.
+
+Feel free to contribute to this project by expanding the dataset, exploring additional features, or experimenting with different machine learning algorithms. Together, we can enhance the accuracy and efficiency of signal tower energy prediction.
+
