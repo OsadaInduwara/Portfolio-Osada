@@ -1,0 +1,27 @@
+
+  {
+    "manifest_version": 3,
+    "name": "Your Extension Name",
+    "version": "1.0",
+    "description": "Description of your extension",
+    "permissions": [
+      "tabs",
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.service_worker.js"
+    },
+    "host_permissions": [
+      "https://www.youtube.com/*"
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["content.js"],
+        "matches": ["https://www.youtube.com/*"]
+      }
+    ]
+  }
+  
